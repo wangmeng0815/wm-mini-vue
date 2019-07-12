@@ -1,0 +1,23 @@
+{
+  "name": "wm-mini-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangmeng0815/wm-mini-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangmeng0815/wm-mini-vue/issues"
+  },
+  "homepage": "https://github.com/wangmeng0815/wm-mini-vue#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}

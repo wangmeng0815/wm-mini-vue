@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>wm-mini-vue</title>
+</head>
+<body>
+    <div id="app">
+        <input type="text" id="a" v-model="msg">
+        {{msg}}
+    </div>
+    <script>
+        window.batcher = '';
+    </script>
+    <script src="./Batcher.js"></script>
+    <script src="./Dep.js"></script>
+    <script src="./Observe.js"></script>
+    <script src="./Watcher.js"></script>
+    <script src="./Compile.js"></script>
+    <script src="./MVVM.js"></script>
+    <script>
+        var vm = new Vue({
+            el: 'app',
+            data: {
+                msg: 'hello vue'
+            }
+        })
+    </script>
+</body>
+</html>
